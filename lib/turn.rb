@@ -29,8 +29,8 @@ def position_taken?(board, index)
     end
   end
 ##########################
-def move(array, index, value = "X" || "O")
-    array[index] = value
+def move(board, index, value = "X" || "O")
+    board[index] = value
 end
 ######################
 def input_to_index(input)
