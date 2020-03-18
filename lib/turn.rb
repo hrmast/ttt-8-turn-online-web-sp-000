@@ -29,7 +29,7 @@ def position_taken?(board, index)
     end
   end
 ##########################
-def move(board, index, value = "X" || "O")
+def move(board, index, value = "X")
     board[index] = value
 end
 ######################
