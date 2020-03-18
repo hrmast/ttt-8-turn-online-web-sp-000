@@ -42,7 +42,7 @@ def turn(board)
   input = gets.strip
   input_to_index(input)
   valid_move?(board,index)
-
+  break
   #move = 0
   # while move < 8
 end
